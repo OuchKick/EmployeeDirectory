@@ -1,14 +1,19 @@
 import React from 'react'
+import "./index.css";
 
-function SearchBar() {
+const SearchBar = (props) => {
     return (
-            <nav className="navbar d-flex justify-content-center">
-            <form className="form-inline">
-            <input className="form-control" type="search" placeholder="Search by Name"/>
-            <button className="btn btn-danger" type="submit">Search</button>
-            </form>
-            </nav>
-    );
-};
+        <input type='search'
+        className='search'
+        placeholder={props.placeholder}
+        onChange = {props.handleChange}
+        />
+
+
+    )
+
+
+
+}
 
 export default SearchBar

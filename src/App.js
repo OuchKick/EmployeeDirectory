@@ -7,22 +7,34 @@ import axios from "axios";
 
 
 
-const App = () => {
 
-    return (
-        <Wrapper>
-        <Header />
-        <SearchBar />
-        <TableTop />
-    </Wrapper>
+class App extends React.Component {
+    constructor(){
+        super();
+        this.state = {
+            employees: [],
+            getEmployees: ""
 
+        }
+    }
 
-    )
-
-
+    async componentDidMount() {
+        const resp = await fetch('https://randomuser.me/api/?inc=name,email,dob,phone,picture&results=20')
+        const employees = await resp.json()
+        this.setState({employees})
+    }
+    render() {
+        return (
+            <Wrapper>
+                <Header />
+                <SearchBar placeholder="Search by Name" handleChange={(e) => console.log(e.target.value)} />
+                <TableTop />
+            </Wrapper>
+        )
+    }
 }
 
-  
+
 
 
 export default App;
