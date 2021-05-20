@@ -6,7 +6,7 @@ return (
     <header>
         <h1 className='text-center'>Employee Directory</h1>
         <p className='text-center'>
-        You many click on the name column to filter by name or use the search box.
+        You may filter through the directory by Department.
 
         </p>
 

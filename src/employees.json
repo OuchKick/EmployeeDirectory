@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Jane Bakers",
+      "image": "https://randomuser.me/api/portraits/med/women/10.jpg",
+      "department": "Software Development",
+      "title": "Sr Full Stack Developer"
+    },
+    {
+      "id": 2,
+      "name": "Jannet Temple",
+      "image": "https://randomuser.me/api/portraits/med/women/11.jpg",
+      "department": "Software Development",
+      "title": "Sr Front End Developer"
+    },
+    {
+      "id": 3,
+      "name": "Donald Billings",
+      "image": "https://randomuser.me/api/portraits/med/men/10.jpg",
+      "department": "Software Development",
+      "title": "Back End Developer"
+    },
+    {
+      "id": 4,
+      "name": "Jennifer Beaf",
+      "image": "https://randomuser.me/api/portraits/med/women/12.jpg",
+      "department": "Accounting",
+      "title": "Accounting Manager"
+    },
+    {
+      "id": 5,
+      "name": "Panko Origin",
+      "image": "https://randomuser.me/api/portraits/med/men/13.jpg",
+      "department": "Accounting",
+      "title": "Accountant"
+    },
+    {
+      "id": 6,
+      "name": "Derrick Panglo",
+      "image": "https://randomuser.me/api/portraits/med/men/15.jpg",
+      "department": "Accounting",
+      "title": "Budget Analyst"
+    },
+    {
+      "id": 7,
+      "name": "Brooklyn Jones",
+      "image": "https://randomuser.me/api/portraits/med/women/15.jpg",
+      "department": "Marketing",
+      "title": "Marketing Director"
+    },
+    {
+      "id": 8,
+      "name": "Grace Miller",
+      "image": "https://randomuser.me/api/portraits/med/women/19.jpg",
+      "department": "Marketing",
+      "title": "Marketing Analyst"
+    },
+    {
+      "id": 9,
+      "name": "Becky Davis",
+      "image": "https://randomuser.me/api/portraits/med/women/11.jpg",
+      "department": "Human Resource",
+      "title": "Human Resource Manager"
+    },
+    {
+      "id": 10,
+      "name": "Eve Jake",
+      "image": "https://randomuser.me/api/portraits/med/women/22.jpg",
+      "department": "Human Resource",
+      "title": "Manager"
+    },
+    {
+      "id": 11,
+      "name": "Jasmine Smith",
+      "image": "https://randomuser.me/api/portraits/med/women/45.jpg",
+      "department": "Software Development",
+      "title": "Back End Developer"
+    },
+    {
+      "id": 12,
+      "name": "Allison Cham",
+      "image": "https://randomuser.me/api/portraits/med/women/29.jpg",
+      "department": "Software Development",
+      "title": "Front End Developer"
+    },
+    {
+        "id": 13,
+        "name": "Jane Dawson",
+        "image": "https://randomuser.me/api/portraits/med/women/33.jpg",
+        "department": "Software Development",
+        "title": "Junior Full Stack Developer"
+      }
+  ]

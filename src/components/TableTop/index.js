@@ -3,14 +3,12 @@ import "./index.css"
 
 function TableTop () {
     return (
-      <table className="table table-striped variant">
-      <thead className="text-center align-center">
-        <tr>
-          <th scope="col"><p className="text-danger" >Image</p></th>
-          <th scope="col"><button type="button" className="btn text-danger" onClick={() => this.sortByName()}>Name</button></th>
-          <th scope="col"><p className="text-danger">Email</p></th>
-          <th scope="col"><p className="text-danger">Phone #</p></th>
-          <th scope="col"><p className="text-danger">DOB</p></th>
+      <table className="table">
+      <thead className="align-center">
+        <tr className='align-center'>
+          <th scope="col"><p className="text-danger">Image and Name</p></th>
+          <th scope="col"><p className="text-danger">Department</p></th>
+          <th scope="col"><p className="text-danger">Title</p></th>
         </tr>
       </thead>
       </table>
